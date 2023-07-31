@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -20,11 +20,11 @@ const Footer = () => {
                             <h6 className="text-uppercase fw-bold mb-4">
                                 Products
                             </h6>
-                            <p><NavLink to={"/"} className="text-reset">All</NavLink></p>
-                            <p><NavLink to={"/"} className="text-reset">Women's</NavLink></p>
-                            <p><NavLink to={"/"} className="text-reset">Men's</NavLink></p>
-                            <p><NavLink to={"/"} className="text-reset">Bags</NavLink></p>
-                            <p><NavLink to={"/"} className="text-reset">Accessories</NavLink></p>
+                            <p><Link to={"/"} className="text-reset">All</Link></p>
+                            <p><Link to={"/women"} className="text-reset">Women's</Link></p>
+                            <p><Link to={"/men"} className="text-reset">Men's</Link></p>
+                            <p><Link to={"/bags"} className="text-reset">Bags</Link></p>
+                            <p><Link to={"/accessories"} className="text-reset">Accessories</Link></p>
                         </div>
                         
                         
@@ -33,8 +33,8 @@ const Footer = () => {
                             <h6 className="text-uppercase fw-bold mb-4">
                                 Useful links
                             </h6>
-                            <p><NavLink to={"/"} className="text-reset">Privacy Policy</NavLink></p>
-                            <p><NavLink to={"/"} className="text-reset">Delivery</NavLink></p>
+                            <p><Link to={"/"} className="text-reset">Privacy Policy</Link></p>
+                            <p><Link to={"/"} className="text-reset">Delivery</Link></p>
                         </div>
 
                         <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">

@@ -1,15 +1,12 @@
-import { Routes } from 'react-router-dom';
-
 import Header from "./components/Header/Header";
 import Footer from './components/Footer.js/Footer';
+import ProductsView from './components/ProductsView/ProductsView';
 
 function App() {
   return (
     <>
       <Header />
-      <Routes>
-        {/* <Route path='/' element={} /> */}
-      </Routes>
+      <ProductsView />
       <Footer />
     </>
   );

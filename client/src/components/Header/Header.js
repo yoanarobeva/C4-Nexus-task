@@ -1,37 +1,37 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
         <nav className="navbar navbar-expand-lg sticky-top bg-body-tertiary">
             <div className="container-fluid">
-                <NavLink to={"/"} className="navbar-brand">ShoeShop</NavLink>
+                <Link to={"/"} className="navbar-brand">ShoeShop</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <NavLink to={"/"} className="nav-link" aria-current="page">All</NavLink>
+                            <Link to={"/"} className="nav-link" aria-current="page">All</Link>
                         </li>
                         <li className="nav-item">
-                            <NavLink to={"/"} className="nav-link">Women's</NavLink>
+                            <Link to={"/women"} className="nav-link">Women's</Link>
                         </li>
                         <li className="nav-item">
-                            <NavLink to={"/"} className="nav-link">Men's</NavLink>
+                            <Link to={"/men"} className="nav-link">Men's</Link>
                         </li>
                         <li className="nav-item">
-                            <NavLink to={"/"} className="nav-link">Bags</NavLink>
+                            <Link to={"/bags"} className="nav-link">Bags</Link>
                         </li>
                         <li className="nav-item dropdown">
-                            <NavLink to={"/"} className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link to={"/accessories"} className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Accessories
-                            </NavLink>
+                            </Link>
                             <ul className="dropdown-menu">
-                                <li><NavLink to={"/"} className="dropdown-item">Hats</NavLink></li>
-                                <li><NavLink to={"/"} className="dropdown-item">Wallets</NavLink></li>
-                                <li><NavLink to={"/"} className="dropdown-item">Gloves</NavLink></li>    
-                                <li><NavLink to={"/"} className="dropdown-item">Belts</NavLink></li>    
-                                <li><NavLink to={"/"} className="dropdown-item">Socks</NavLink></li>    
+                                <li><Link to={"/accessories/hats"} className="dropdown-item">Hats</Link></li>
+                                <li><Link to={"/accessories/wallets"} className="dropdown-item">Wallets</Link></li>
+                                <li><Link to={"/accessories/gloves"} className="dropdown-item">Gloves</Link></li>    
+                                <li><Link to={"/accessories/belts"} className="dropdown-item">Belts</Link></li>    
+                                <li><Link to={"/accessories/socks"} className="dropdown-item">Socks</Link></li>    
                             </ul>
                         </li>
                     </ul>
