@@ -1,5 +1,6 @@
 import Description from "../Description/Description";
 import Filter from "../Filter/Filter";
+import LoadMore from "../LoadMore/LoadMore";
 import ProductGrid from "../ProductGrid/ProductGrid";
 import Sort from "../Sort/Sort";
 
@@ -18,6 +19,7 @@ const ProductsView = () => {
                         <Sort />    
                     </div>
                     <ProductGrid />
+                    <LoadMore />
                 </div>
             </div>
         </>
