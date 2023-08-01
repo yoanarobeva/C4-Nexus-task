@@ -1,5 +1,6 @@
 .product-grid{
-    font-family: 'Poppins', sans-serif;
+    flex: 0 0 25%;
+    font-family: sans-serif;
     text-align: center;
 }
 

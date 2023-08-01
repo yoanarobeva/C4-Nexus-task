@@ -1,0 +1,19 @@
+.products-container {
+    display: flex;
+    width: 100%;
+    padding: 2em;
+}
+
+.left-side {
+    flex: 0 0 15%;
+}
+
+.right-side{
+    flex: 1 0 70%;
+    padding-inline: 5em;
+}
+
+.top {
+    display: flex;
+    gap: 3em;
+}
