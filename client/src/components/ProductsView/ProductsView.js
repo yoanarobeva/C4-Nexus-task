@@ -1,7 +1,7 @@
 import Description from "../Description/Description";
 import Filter from "../Filter/Filter";
 import LoadMore from "../LoadMore/LoadMore";
-import ProductGrid from "../ProductGrid/ProductGrid";
+import ProductsGrid from "../ProductsGrid/ProductsGrid";
 import Sort from "../Sort/Sort";
 
 import './ProductsView.css'
@@ -18,7 +18,7 @@ const ProductsView = () => {
                         <Description />
                         <Sort />    
                     </div>
-                    <ProductGrid />
+                    <ProductsGrid />
                     <LoadMore />
                 </div>
             </div>

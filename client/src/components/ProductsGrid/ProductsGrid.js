@@ -1,8 +1,8 @@
 import ProductCard from "./ProductCard";
 
-import "./ProductGrid.css";
+import "./ProductsGrid.css";
 
-const ProductGrid = () => {
+const ProductsGrid = () => {
     return (
         <div className="row">
             <ProductCard />
@@ -17,4 +17,4 @@ const ProductGrid = () => {
     );
 }
 
-export default ProductGrid;
+export default ProductsGrid;
