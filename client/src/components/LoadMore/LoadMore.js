@@ -1,3 +1,5 @@
+import "./LoadMore.css"
+
 const LoadMore = () => {
     return (
         <div className="text-center">

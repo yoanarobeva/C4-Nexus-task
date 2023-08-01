@@ -3,8 +3,7 @@ const config = {
         BASE_URL: ''
     },
     development: {
-        BASE_URL: ''
-
+        BASE_URL: 'http://localhost:3000'
     }
 }
 

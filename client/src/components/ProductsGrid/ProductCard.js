@@ -16,6 +16,7 @@ const ProductCard = () => {
             <div className="product-content">
                 <div className="price">$77.99</div>
                 <h3 className="title"><Link href="#">Women's T-Shirt</Link></h3>
+                <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <ul className="rating">
                     <li className="fas fa-star"></li>
                     <li className="fas fa-star"></li>

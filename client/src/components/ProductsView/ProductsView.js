@@ -1,3 +1,7 @@
+import { useEffect, useState } from "react";
+
+import * as productService from "../../services/productService"
+
 import Description from "../Description/Description";
 import Filter from "../Filter/Filter";
 import LoadMore from "../LoadMore/LoadMore";
@@ -7,6 +11,15 @@ import Sort from "../Sort/Sort";
 import './ProductsView.css'
 
 const ProductsView = () => {
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
+        productService.getAll()
+            .then(data => {
+                setProducts(data.products);
+                console.log(data.products);
+            })
+    }, [])
     return (
         <>
             <div className="products-container">
