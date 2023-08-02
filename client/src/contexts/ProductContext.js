@@ -59,6 +59,7 @@ export const ProductProvider = memo(({
             setShow(20);
         } else {
             setShow(products.length);
+            setDisableLoadMore(true);
         }
     }, [products.length])
     
