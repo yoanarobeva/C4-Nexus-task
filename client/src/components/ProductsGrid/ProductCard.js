@@ -19,8 +19,8 @@ const ProductCard = ({
                     <img alt={model} className="img-1" src={img} />
                 </Link>
                 <ul className="product-links">
-                    <li><Link href="#"><i className="fas fa-shopping-cart"></i></Link></li>
-                    <li><Link href="#"><i className="fa fa-eye"></i></Link></li>
+                    <li><Link onClick={() => alert("Product added to cart.")}><i className="fas fa-shopping-cart"></i></Link></li>
+                    <li><Link onClick={() => alert("Product details page should display")}><i className="fa fa-eye"></i></Link></li>
                 </ul>
             </div>
             <div className="product-content">

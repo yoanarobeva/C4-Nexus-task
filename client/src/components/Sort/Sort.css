@@ -1,4 +1,4 @@
 .select-container {
-    flex: 0 0 30%;
-    width: 100%;
+    flex: 1 1 20%;
+    min-width: 15%;
 }

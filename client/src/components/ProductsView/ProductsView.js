@@ -10,6 +10,7 @@ import ProductsGrid from "../ProductsGrid/ProductsGrid";
 import Sort from "../Sort/Sort";
 
 import './ProductsView.css'
+import ProductCounter from "../ProductCounter/ProductCounter";
 
 const ProductsView = () => {
     const {category, accessory} = useParams();
@@ -31,6 +32,7 @@ const ProductsView = () => {
                         <Description category={category}/>
                         <Sort />    
                     </div>
+                    <ProductCounter />
                     <ProductsGrid />
                     {disableLoadMore ? null : 
                         <LoadMore />

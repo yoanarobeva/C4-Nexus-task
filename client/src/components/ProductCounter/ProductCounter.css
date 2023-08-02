@@ -1,0 +1,11 @@
+.counter {
+    width: 100%;
+    padding-bottom: 3em;
+    text-align: end;
+    color: grey;
+}
+
+.counter span {
+    font-size: 1.2em;
+    font-weight: 500;
+}

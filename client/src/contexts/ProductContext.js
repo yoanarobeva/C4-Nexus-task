@@ -16,9 +16,6 @@ export const ProductProvider = memo(({
     const [filters, setFilters] = useState([]);
 
     useEffect(() => {
-        setDisableLoadMore(false);
-        setShow(20);
-
         productService.getAll()
         .then((data) => {
             setProducts(data.products);  
@@ -53,7 +50,17 @@ export const ProductProvider = memo(({
                 })
             }   
         })
+        
     }, [category, accessory,filters]);
+
+    useEffect(() => {
+        setDisableLoadMore(false);
+        if(products.length >= 20) {
+            setShow(20);
+        } else {
+            setShow(products.length);
+        }
+    }, [products.length])
     
     const onLoadMore = useCallback(() => {
         if(show <= (products.length - 20)) {
