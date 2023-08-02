@@ -1,6 +1,26 @@
 import "./Filter.css"
 
-const Filter = () => {
+const categories = {
+    undefined: ["Sandal", "Boot", "Sports Footwear", "Flip-flop", "Half Shoe", "Pump"],
+    women: ["Sandal", "Boot", "Sports Footwear", "Flip-flop", "Pump"],
+    men: ["Sandal", "Boot", "Sports Footwear", "Flip-flop", "Half Shoe"],
+    bags: [],
+    accessories: [],
+};
+
+const brands = {
+    undefined: ["Quazi", "Puma", "Lasocki", "Lanetti"],
+    women: ["Quazi", "Puma", "Lasocki"],
+    men: ["Puma", "Lasocki", "Lanetti"],
+    bags: [],
+    accessories: [],
+};
+
+const colors = ["Black", "Beige", "Pink", "White", "Maroon", "Brown", "Camel"];
+
+const seasons = ["all", "summer", "winter", "spring/autumn"];
+
+const Filter = ({category}) => {
     return (
         <>
             <h4>Filter</h4>
@@ -16,29 +36,19 @@ const Filter = () => {
                             aria-expanded="false" 
                             aria-controls="collapseOne"
                         >
-                            Brand
+                            Category
                         </button>
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" defaultValue="one" id="flexCheckDefault"/>
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
-                                    One
-                                </label>
-                            </div>
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" defaultValue="two" id="flexCheckDefault"/>
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
-                                    Two
-                                </label>
-                            </div>
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" defaultValue="three" id="flexCheckDefault"/>
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
-                                    Three
-                                </label>
-                            </div>
+                            {categories[category].map(x => 
+                                <div className="form-check" key={x}>
+                                    <input className="form-check-input" type="checkbox" defaultValue={x} id="flexCheckDefault"/>
+                                    <label className="form-check-label" htmlFor="flexCheckDefault">
+                                        {x}
+                                    </label>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>
@@ -52,29 +62,19 @@ const Filter = () => {
                             aria-expanded="false" 
                             aria-controls="collapseTwo"
                         >
-                            Color
+                            Brand
                         </button>
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" defaultValue="one" id="flexCheckDefault"/>
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
-                                    One
-                                </label>
-                            </div>
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" defaultValue="two" id="flexCheckDefault"/>
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
-                                    Two
-                                </label>
-                            </div>
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" defaultValue="three" id="flexCheckDefault"/>
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
-                                    Three
-                                </label>
-                            </div>
+                            {brands[category].map(x => 
+                                <div className="form-check" key={x}>
+                                    <input className="form-check-input" type="checkbox" defaultValue={x} id="flexCheckDefault"/>
+                                    <label className="form-check-label" htmlFor="flexCheckDefault">
+                                        {x}
+                                    </label>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>
@@ -88,29 +88,19 @@ const Filter = () => {
                             aria-expanded="false" 
                             aria-controls="collapseThree"
                         >
-                            Category
+                            Color
                         </button>
                     </h2>
                     <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" defaultValue="one" id="flexCheckDefault"/>
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
-                                    One
-                                </label>
-                            </div>
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" defaultValue="two" id="flexCheckDefault"/>
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
-                                    Two
-                                </label>
-                            </div>
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" defaultValue="three" id="flexCheckDefault"/>
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
-                                    Three
-                                </label>
-                            </div>
+                            {colors.map(x => 
+                                <div className="form-check" key={x}>
+                                    <input className="form-check-input" type="checkbox" defaultValue={x} id="flexCheckDefault"/>
+                                    <label className="form-check-label" htmlFor="flexCheckDefault">
+                                        {x}
+                                    </label>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>
@@ -129,24 +119,14 @@ const Filter = () => {
                     </h2>
                     <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordion">
                         <div className="accordion-body">
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" defaultValue="one" id="flexCheckDefault"/>
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
-                                    One
-                                </label>
-                            </div>
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" defaultValue="two" id="flexCheckDefault"/>
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
-                                    Two
-                                </label>
-                            </div>
-                            <div className="form-check">
-                                <input className="form-check-input" type="checkbox" defaultValue="three" id="flexCheckDefault"/>
-                                <label className="form-check-label" htmlFor="flexCheckDefault">
-                                    Three
-                                </label>
-                            </div>
+                            {seasons.map(x => 
+                                <div className="form-check" key={x}>
+                                    <input className="form-check-input" type="checkbox" defaultValue={x} id="flexCheckDefault"/>
+                                    <label className="form-check-label" htmlFor="flexCheckDefault">
+                                        {x}
+                                    </label>
+                                </div>
+                            )}
                         </div>
                     </div>
                 </div>

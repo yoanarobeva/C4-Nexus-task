@@ -24,7 +24,7 @@ const ProductsView = () => {
         <>
             <div className="products-container">
                 <div className="left-side">
-                    <Filter />
+                    <Filter category={category}/>
                 </div>
                 <div className="right-side">
                     <div className="top">
