@@ -14,9 +14,14 @@ import './ProductsView.css'
 const ProductsView = () => {
     const [products, setProducts] = useState([]);
     const [show, setShow] = useState(20);
+    const [isLoading, setIsLoading] = useState(true);
+    const [disableLoadMore, setDisableLoadMore] = useState(false);
     const {category, accessory} = useParams();
 
     useEffect(() => {
+        setDisableLoadMore(false);
+        setShow(20);
+        
         productService.getAll()
         .then((data) => {
             setProducts(data.products);  
@@ -38,8 +43,18 @@ const ProductsView = () => {
                     ...state.accessories.socks
                 ]))
             )
+            setIsLoading(false);
         })
     }, [category, accessory]);
+
+    const onLoadMore = () => {
+        if(show <= (products.length - 20)) {
+            setShow(state => state + 20);
+        } else {
+            setShow(() => products.length);
+            setDisableLoadMore(() => true);
+        }
+    }
 
     // console.log(products);
     // console.log(category, accessory);
@@ -55,7 +70,9 @@ const ProductsView = () => {
                         <Sort />    
                     </div>
                     <ProductsGrid products={products} show={show} />
-                    <LoadMore />
+                    {disableLoadMore ? null : 
+                        <LoadMore onLoadMore={onLoadMore} isLoading={isLoading} disableLoadMore={disableLoadMore} />
+                    }
                 </div>
             </div>
         </>

@@ -1,12 +1,17 @@
 import "./LoadMore.css"
 
-const LoadMore = () => {
+const LoadMore = ({onLoadMore, isLoading, disableLoadMore}) => {
     return (
         <div className="text-center">
-            <button className="btn btn-secondary" type="button" disabled>
-                <span>Load more...</span>
-                <span className="spinner-border spinner-border-sm" aria-hidden="true"></span>
-                <span role="status">Loading...</span>
+            <button className="btn btn-secondary" type="button" disabled={isLoading ? true : false} onClick={onLoadMore}>
+                {isLoading ?
+                    <>
+                        <span className="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                        <span role="status">Loading...</span>
+                    </> 
+                :
+                    <span>Load more...</span>
+                }
             </button>
         </div>
     );
