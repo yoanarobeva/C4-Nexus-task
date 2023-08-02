@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 
+import { ProductProvider } from "./contexts/ProductContext";
 import Header from "./components/Header/Header";
 import Footer from './components/Footer.js/Footer';
 import ProductsView from './components/ProductsView/ProductsView';
@@ -9,10 +10,14 @@ function App() {
     <>
       <Header />
 
-      <Routes>
-        <Route path="/:category?" element={<ProductsView />} />
-        <Route path="/:category/:accessory?" element={<ProductsView />} />
-      </Routes>
+      <ProductProvider>
+
+        <Routes>
+          <Route path="/:category?" element={<ProductsView />} />
+          <Route path="/:category/:accessory?" element={<ProductsView />} />
+        </Routes>
+
+      </ProductProvider>
       
       <Footer />
     </>

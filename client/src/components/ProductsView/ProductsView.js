@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react";
+
+import { useContext, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-import * as productService from "../../services/productService"
-
+import { ProductContext } from "../../contexts/ProductContext";
 import Description from "../Description/Description";
 import Filter from "../Filter/Filter";
 import LoadMore from "../LoadMore/LoadMore";
@@ -12,52 +12,14 @@ import Sort from "../Sort/Sort";
 import './ProductsView.css'
 
 const ProductsView = () => {
-    const [products, setProducts] = useState([]);
-    const [show, setShow] = useState(20);
-    const [isLoading, setIsLoading] = useState(true);
-    const [disableLoadMore, setDisableLoadMore] = useState(false);
     const {category, accessory} = useParams();
+    const {disableLoadMore, setCategory, setAccessory} = useContext(ProductContext);
 
     useEffect(() => {
-        setDisableLoadMore(false);
-        setShow(20);
-        
-        productService.getAll()
-        .then((data) => {
-            setProducts(data.products);  
-        })
-        .then(() => {
-            if(category && !accessory) {
-                setProducts(state => state[category]);
-            } else if (category && accessory) {
-                setProducts(state => state[category][accessory]);
-            } else (
-                setProducts(state => ([
-                    ...state.women, 
-                    ...state.men, 
-                    ...state.bags, 
-                    ...state.accessories.hats, 
-                    ...state.accessories.wallets, 
-                    ...state.accessories.gloves, 
-                    ...state.accessories.belts, 
-                    ...state.accessories.socks
-                ]))
-            )
-            setIsLoading(false);
-        })
-    }, [category, accessory]);
+        setCategory(category);
+        setAccessory(accessory);
+    }, [category, accessory, setAccessory, setCategory]);
 
-    const onLoadMore = () => {
-        if(show <= (products.length - 20)) {
-            setShow(state => state + 20);
-        } else {
-            setShow(() => products.length);
-            setDisableLoadMore(() => true);
-        }
-    }
-
-    // console.log(products);
-    // console.log(category, accessory);
     return (
         <>
             <div className="products-container">
@@ -69,9 +31,9 @@ const ProductsView = () => {
                         <Description />
                         <Sort />    
                     </div>
-                    <ProductsGrid products={products} show={show} />
+                    <ProductsGrid />
                     {disableLoadMore ? null : 
-                        <LoadMore onLoadMore={onLoadMore} isLoading={isLoading} disableLoadMore={disableLoadMore} />
+                        <LoadMore />
                     }
                 </div>
             </div>

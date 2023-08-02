@@ -1,6 +1,10 @@
+import { useContext } from "react";
 import "./LoadMore.css"
+import { ProductContext } from "../../contexts/ProductContext";
 
-const LoadMore = ({onLoadMore, isLoading, disableLoadMore}) => {
+const LoadMore = () => {
+    const {onLoadMore, isLoading} = useContext(ProductContext);
+
     return (
         <div className="text-center">
             <button className="btn btn-secondary" type="button" disabled={isLoading ? true : false} onClick={onLoadMore}>
