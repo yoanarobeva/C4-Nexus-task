@@ -14,6 +14,7 @@ export const ProductProvider = memo(({
     const [category, setCategory] = useState(undefined);
     const [accessory, setAccessory] = useState(undefined);
     const [filters, setFilters] = useState([]);
+    const [sort, setSort] = useState("rating-desc");
 
     useEffect(() => {
         productService.getAll()
@@ -37,7 +38,6 @@ export const ProductProvider = memo(({
                     ...state.accessories.socks
                 ]))
             )
-            setIsLoading(false);
         })
         .then(() => {
             if(filters.length !== 0) {
@@ -50,8 +50,28 @@ export const ProductProvider = memo(({
                 })
             }   
         })
+        .then(() => {
+            if(sort) {
+                setProducts(state => {
+                    if (sort === "rating-asc") {
+                        state.sort((a, b) => Number(a.rating) - Number(b.rating));
+                    } else if (sort === "rating-desc") {
+                        state.sort((a, b) => Number(b.rating) - Number(a.rating));
+                    } else if (sort === "price-asc") {
+                        state.sort((a, b) => Number(a.price) - Number(b.price));
+                    } else if (sort === "price-desc") {
+                        state.sort((a, b) => Number(b.price) - Number(a.price));
+                    }
+                    return state;
+                })
+            }
+        })
+        .then(() => {
+            setIsLoading(false);
+        })
+        .catch(err => console.error(err.message))
         
-    }, [category, accessory,filters]);
+    }, [category, accessory, filters, sort]);
 
     useEffect(() => {
         setDisableLoadMore(false);
@@ -78,7 +98,11 @@ export const ProductProvider = memo(({
         } else {
             setFilters(state => state.filter(x => x !== value));
         }
-    }, [])
+    }, []);
+
+    const onOptionChange = useCallback((option) => {
+        setSort(option);
+    }, []);
 
     const productContextValues = useMemo(() => ({
         products,
@@ -88,8 +112,9 @@ export const ProductProvider = memo(({
         setCategory,
         setAccessory,
         onLoadMore,
-        onFilterAdd
-    }), [products, show, disableLoadMore, isLoading, setCategory, setAccessory, onLoadMore, onFilterAdd])
+        onFilterAdd,
+        onOptionChange,
+    }), [products, show, disableLoadMore, isLoading, setCategory, setAccessory, onLoadMore, onFilterAdd, onOptionChange])
 
     return (
         <ProductContext.Provider value={productContextValues}>

@@ -11,10 +11,11 @@ import Sort from "../Sort/Sort";
 
 import './ProductsView.css'
 import ProductCounter from "../ProductCounter/ProductCounter";
+import Spinner from "../Spinner/Spinner";
 
 const ProductsView = () => {
     const {category, accessory} = useParams();
-    const {disableLoadMore, setCategory, setAccessory} = useContext(ProductContext);
+    const {disableLoadMore, setCategory, setAccessory, isLoading} = useContext(ProductContext);
 
     useEffect(() => {
         setCategory(category);
@@ -22,24 +23,27 @@ const ProductsView = () => {
     }, [category, accessory, setAccessory, setCategory]);
 
     return (
-        <>
-            <div className="products-container">
-                <div className="left-side">
-                    <Filter category={category}/>
-                </div>
-                <div className="right-side">
-                    <div className="top">
-                        <Description category={category}/>
-                        <Sort />    
+        <div className="products-container">
+            {isLoading ? <Spinner /> :
+                <>
+                    <div className="left-side">
+                        <Filter category={category}/>
                     </div>
-                    <ProductCounter />
-                    <ProductsGrid />
-                    {disableLoadMore ? null : 
-                        <LoadMore />
-                    }
-                </div>
-            </div>
-        </>
+                    <div className="right-side">
+                        <div className="top">
+                            <Description category={category}/>
+                            <Sort />    
+                        </div>
+                        <ProductCounter />
+                        <ProductsGrid />
+                        {disableLoadMore ? null : 
+                            <LoadMore />
+                        }
+                    </div>
+                </>
+            }
+        </div>
+        
     );
 }
 
