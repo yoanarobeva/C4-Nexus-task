@@ -2,17 +2,14 @@ import ProductCard from "./ProductCard";
 
 import "./ProductsGrid.css";
 
-const ProductsGrid = () => {
+const ProductsGrid = ({products, show}) => {
     return (
         <div className="row">
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            {products.length !== 0 ? 
+                products.slice(0,show).map(x => <ProductCard key={x._id} {...x}/>) 
+                : 
+                <h2>There are no products!</h2>
+            }
         </div>
     );
 }

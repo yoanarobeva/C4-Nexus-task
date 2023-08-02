@@ -1,7 +1,8 @@
 {
     "products" : {
-        "women": {
-            "001": {
+        "women": [
+            {
+                "_id": "W_001",
                 "brand": "Quazi",
                 "model": "WYL2994-1",
                 "color": "Black",
@@ -11,7 +12,8 @@
                 "price": "102",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/0clsfpwv/images/23/2318825/5904248355975_01_rz.jpg"
             },
-            "002": {
+            {
+                "_id": "W_002",
                 "brand": "Quazi",
                 "model": "WYL2994-1",
                 "color": "Beige",
@@ -21,7 +23,8 @@
                 "price": "104",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/vgpsbpuq/images/23/2315077/5904248338695_01_rz.jpg"
             },
-            "003": {
+            {
+                "_id": "W_003",
                 "brand": "Quazi",
                 "model": "WYL2994-1",
                 "color": "Pink",
@@ -31,7 +34,8 @@
                 "price": "100",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/281plind/images/23/2315057/5904248338688_01_rz.jpg"
             },
-            "004": {
+            {
+                "_id": "W_004",
                 "brand": "Quazi",
                 "model": "WYL2994-1",
                 "color": "White",
@@ -41,7 +45,8 @@
                 "price": "101",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/twbllzk5/images/23/2315053/5904248338701_01_rz.jpg"
             },
-            "005": {
+            {
+                "_id": "W_005",
                 "brand": "Quazi",
                 "model": "WYL2925-5A",
                 "color": "Pink",
@@ -51,7 +56,8 @@
                 "price": "120",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/nvoobxoz/images/23/2307459/5904248301378_01_rz.jpg"
             },
-            "006": {
+            {
+                "_id": "W_006",
                 "brand": "Quazi",
                 "model": "WYL2925-5A",
                 "color": "Maroon",
@@ -61,7 +67,8 @@
                 "price": "122",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/2c3dz1n2/images/23/2307447/5904248301361_01_rz.jpg"
             },
-            "007": {
+            {
+                "_id": "W_007",
                 "brand": "Quazi",
                 "model": "WYL2925-5A",
                 "color": "Beige",
@@ -71,7 +78,8 @@
                 "price": "122",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/6pnw7ryd/images/23/2307435/5904248301385_01_rz.jpg"
             },
-            "008": {
+            {
+                "_id": "W_008",
                 "brand": "Quazi",
                 "model": "WYL2979-2",
                 "color": "Black",
@@ -81,7 +89,8 @@
                 "price": "150",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/4estfovi/images/22/2257365/5904248130794_01_rz.jpg"
             },
-            "009": {
+            {
+                "_id": "W_009",
                 "brand": "Quazi",
                 "model": "WYL2979-2",
                 "color": "Beige",
@@ -91,7 +100,8 @@
                 "price": "150",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/8wmasyex/images/22/2264723/5904248130800_01_rz.jpg"
             },
-            "010": {
+            {
+                "_id": "W_010",
                 "brand": "Puma",
                 "model": "Karmen L-38461501",
                 "color": "White",
@@ -101,7 +111,8 @@
                 "price": "95",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/viztugfg/images/23/2300927/5904248251802_01_rz.jpg"
             },
-            "011": {
+            {
+                "_id": "W_011",
                 "brand": "Puma",
                 "model": "Smash Wns V2 L-36520803",
                 "color": "Black",
@@ -111,7 +122,8 @@
                 "price": "96",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/mqwcn0iq/images/22/2298029/5904248257743_01_rz.jpg"
             },
-            "012": {
+            {
+                "_id": "W_012",
                 "brand": "Puma",
                 "model": "Skye Clean-38014709",
                 "color": "White",
@@ -121,7 +133,8 @@
                 "price": "100",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/jtbtu9su/images/22/2296387/5904248248741_01_rz.jpg"
             },
-            "013": {
+            {
+                "_id": "W_013",
                 "brand": "Puma",
                 "model": "Skye Clean-38014710",
                 "color": "Black",
@@ -131,7 +144,8 @@
                 "price": "112",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/nkvpciuf/images/22/2295631/5904248248826_01_rz.jpg"
             },
-            "014": {
+            {
+                "_id": "W_014",
                 "brand": "Puma",
                 "model": "Adela 37054403",
                 "color": "Pink",
@@ -141,7 +155,8 @@
                 "price": "87",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/tjue8fof/images/97/970096/2230003566007_01_mn.jpg"
             },
-            "015": {
+            {
+                "_id": "W_015",
                 "brand": "Lasocki",
                 "model": "Sewera-10",
                 "color": "Black",
@@ -151,7 +166,8 @@
                 "price": "200",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/tc2p59dz/images/98/987924/2230004367849_01_kt.jpg"
             },
-            "016": {
+            {
+                "_id": "W_016",
                 "brand": "Lasocki",
                 "model": "Sewera-10",
                 "color": "Beige",
@@ -161,7 +177,8 @@
                 "price": "220",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/jwgxaf5n/images/98/987692/2230004367856_01_kt.jpg"
             },
-            "017": {
+            {
+                "_id": "W_017",
                 "brand": "Lasocki",
                 "model": "SM-Rika-03",
                 "color": "Maroon",
@@ -171,7 +188,8 @@
                 "price": "223",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/kyb0gvph/images/89/897351/2220954940001_01_mt.jpg"
             },
-            "018": {
+            {
+                "_id": "W_018",
                 "brand": "Lasocki",
                 "model": "H587",
                 "color": "White",
@@ -181,7 +199,8 @@
                 "price": "60",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/twkxozuf/images/92/921491/2221014560009_01_pz.jpg"
             },
-            "019": {
+            {
+                "_id": "W_019",
                 "brand": "Lasocki",
                 "model": "H587",
                 "color": "Pink",
@@ -191,7 +210,8 @@
                 "price": "62",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/vmxuir1z/images/92/921265/2221013080003_01_gh.jpg"
             },
-            "020": {
+            {
+                "_id": "W_020",
                 "brand": "Lasocki",
                 "model": "WYL1265-1T",
                 "color": "Black",
@@ -201,7 +221,8 @@
                 "price": "89",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/309iovm8/images/85/850310/2220844430001_01_ek.jpg"
             },
-            "021": {
+            {
+                "_id": "W_021",
                 "brand": "Lasocki",
                 "model": "175112-01",
                 "color": "Beige",
@@ -211,7 +232,8 @@
                 "price": "92",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/qmb0mkmp/images/81/811851/2220805760000_01_ts.jpg"
             },
-            "022": {
+            {
+                "_id": "W_022",
                 "brand": "Quazi",
                 "model": "1571-1",
                 "color": "Maroon",
@@ -221,7 +243,8 @@
                 "price": "94",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/loavx7ts/images/71/7162/2220611930000_quazi_1571_1_bordowy_jf_01.jpg"
             },
-            "023": {
+            {
+                "_id": "W_023",
                 "brand": "Quazi",
                 "model": "3434-03",
                 "color": "Black",
@@ -231,9 +254,10 @@
                 "price": "95",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/yxakwl4k/images/16/16237/2220637110004_quazi_3434_03_czarny_pl_01.jpg"
             }
-        },
-        "men": {
-            "001": {
+        ],
+        "men": [
+            {
+                "_id": "M_001",
                 "brand": "Lasocki",
                 "model": "MB-Krak-02",
                 "color": "Black",
@@ -243,7 +267,8 @@
                 "price": "120",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/nupcoofm/images/23/2318569/5904248354343_01_rz.jpg"
             },
-            "002": {
+            {
+                "_id": "M_002",
                 "brand": "Lasocki",
                 "model": "MB-Miki-07Big",
                 "color": "Black",
@@ -253,7 +278,8 @@
                 "price": "121",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/wzyxjnyz/images/23/2318549/01_5904248354251_rz.jpg"
             },
-            "003": {
+            {
+                "_id": "M_003",
                 "brand": "Lasocki",
                 "model": "MB-Miki-07Big",
                 "color": "Brown",
@@ -263,7 +289,8 @@
                 "price": "122",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/ad5xqs25/images/23/2318553/01_5904248354244_rz.jpg"
             },
-            "004": {
+            {
+                "_id": "M_004",
                 "brand": "Lasocki",
                 "model": "MB-Boca-03",
                 "color": "Camel",
@@ -273,7 +300,8 @@
                 "price": "123",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/atovtoig/images/23/2314929/5904248338060_01_rz.jpg"
             },
-            "005": {
+            {
+                "_id": "M_005",
                 "brand": "Lasocki",
                 "model": "MB-Lope-22",
                 "color": "Brown",
@@ -283,7 +311,8 @@
                 "price": "124",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/ahnzwmul/images/23/2311393/5904248322298_01_rz.jpg"
             },
-            "006": {
+            {
+                "_id": "M_006",
                 "brand": "Lasocki",
                 "model": "MB-Miki-07",
                 "color": "Black",
@@ -293,7 +322,8 @@
                 "price": "125",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/h8h6xp2d/images/23/2311507/01_5904248322861_rz.jpg"
             },
-            "007": {
+            {
+                "_id": "M_007",
                 "brand": "Lasocki",
                 "model": "MB-Miki-07",
                 "color": "Brown",
@@ -303,7 +333,8 @@
                 "price": "126",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/pzptq7uu/images/23/2311523/5904248322854_01_rz_1_1.jpg"
             },
-            "008": {
+            {
+                "_id": "M_008",
                 "brand": "Lasocki",
                 "model": "Mi08-C608-586-05Big",
                 "color": "Black",
@@ -313,7 +344,8 @@
                 "price": "160",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/maptfq68/images/22/2226595/5903698985817_01_rz.jpg"
             },
-            "009": {
+            {
+                "_id": "M_009",
                 "brand": "Lasocki",
                 "model": "Mi08-C608-586-05Big",
                 "color": "Brown",
@@ -323,7 +355,8 @@
                 "price": "162",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/3icymc9y/images/22/2226591/5903698985800_01_rz.jpg"
             },
-            "010": {
+            {
+                "_id": "M_010",
                 "brand": "Lasocki",
                 "model": "Mi07-A984-A814-04",
                 "color": "Camel",
@@ -333,7 +366,8 @@
                 "price": "163",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/entan6ta/images/22/2226219/5903698980218_01_rz_1.jpg"
             },
-            "011": {
+            {
+                "_id": "M_011",
                 "brand": "Puma",
                 "model": "Divecat V2 Lite-37482301",
                 "color": "Black",
@@ -343,7 +377,8 @@
                 "price": "85",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/bfye3omn/images/20/2041562/5903698499017_01_rz_2.jpg"
             },
-            "012": {
+            {
+                "_id": "M_012",
                 "brand": "Puma",
                 "model": "Supertec Zero-38464201",
                 "color": "Black",
@@ -353,7 +388,8 @@
                 "price": "86",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/4ugm07i7/images/23/2302357/5904248257651_01_rz.jpg"
             },
-            "013": {
+            {
+                "_id": "M_013",
                 "brand": "Puma",
                 "model": "Twitch Runner-37628902",
                 "color": "Black",
@@ -363,7 +399,8 @@
                 "price": "87",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/cgwlolfz/images/22/2296145/5904248249489_01_rz.jpg"
             },
-            "014": {
+            {
+                "_id": "M_014",
                 "brand": "Puma",
                 "model": "Supertec Zero-38464205",
                 "color": "White",
@@ -373,7 +410,8 @@
                 "price": "88",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/jzcyast8/images/22/2296073/5904248249571_01_rz.jpg"
             },
-            "015": {
+            {
+                "_id": "M_015",
                 "brand": "Puma",
                 "model": "X-Ray Speed Lite-38463907",
                 "color": "White",
@@ -383,7 +421,8 @@
                 "price": "89",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/expwtx1t/images/22/2294835/5904248243838_01_rz.jpg"
             },
-            "016": {
+            {
+                "_id": "M_016",
                 "brand": "Puma",
                 "model": "Anzarun Lite-37112801",
                 "color": "Black",
@@ -393,7 +432,8 @@
                 "price": "90",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/bwlyz2wr/images/22/2294705/5904248243166_01_rz.jpg"
             },
-            "017": {
+            {
+                "_id": "M_017",
                 "brand": "Puma",
                 "model": "Smash V2 L-36521501",
                 "color": "White",
@@ -403,7 +443,8 @@
                 "price": "91",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/2j8hifwd/images/99/999281/5903419005534_01_ks.jpg"
             },
-            "018": {
+            {
+                "_id": "M_018",
                 "brand": "Lanetti",
                 "model": "Ms19627-6",
                 "color": "Brown",
@@ -413,7 +454,8 @@
                 "price": "92",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/wjxybvzn/images/96/963058/2221071490004_01_ek.jpg"
             },
-            "019": {
+            {
+                "_id": "M_019",
                 "brand": "Lanetti",
                 "model": "Ms17013-3",
                 "color": "Brown",
@@ -423,7 +465,8 @@
                 "price": "93",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/etdwjtkb/images/96/962402/2221060820003_01_pz.jpg"
             },
-            "020": {
+            {
+                "_id": "M_020",
                 "brand": "Lanetti",
                 "model": "Ms17013-1",
                 "color": "Black",
@@ -433,7 +476,8 @@
                 "price": "94",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/zfktk9kv/images/95/958522/2221060800005_01_ts.jpg"
             },
-            "021": {
+            {
+                "_id": "M_021",
                 "brand": "Lanetti",
                 "model": "Ms17011-2",
                 "color": "Black",
@@ -443,7 +487,8 @@
                 "price": "95",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/9h3b70o1/images/95/955194/2221057850006_01_az.jpg"
             },
-            "022": {
+            {
+                "_id": "M_022",
                 "brand": "Lanetti",
                 "model": "Mp07-7081-24",
                 "color": "Black",
@@ -453,7 +498,8 @@
                 "price": "96",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/3oqxord5/images/23/2310111/5904248313920_01_kt.jpg"
             },
-            "023": {
+            {
+                "_id": "M_023",
                 "brand": "Lanetti",
                 "model": "Myl8428-2",
                 "color": "Camel",
@@ -463,7 +509,8 @@
                 "price": "97",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/gcslu6i2/images/23/2301423/01_5904248267254_rz.jpg"
             },
-            "024": {
+            {
+                "_id": "M_024",
                 "brand": "Lanetti",
                 "model": "Myl8428-2",
                 "color": "Black",
@@ -473,7 +520,8 @@
                 "price": "98",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/7ikawoes/images/23/2301413/01_5904248267247_rz.jpg"
             },
-            "025": {
+            {
+                "_id": "M_025",
                 "brand": "Lanetti",
                 "model": "Mbs-Joseph-01",
                 "color": "Brown",
@@ -483,7 +531,8 @@
                 "price": "140",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/eqnuv03g/images/99/990200/2230004807499_0_1_pc.jpg"
             },
-            "026": {
+            {
+                "_id": "M_026",
                 "brand": "Lanetti",
                 "model": "Mbs-Imola-01",
                 "color": "Brown",
@@ -493,7 +542,8 @@
                 "price": "142",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/u1st8vwd/images/99/990158/2230004852086_0_1_mt.jpg"
             },
-            "027": {
+            {
+                "_id": "M_027",
                 "brand": "Lanetti",
                 "model": "Mbs-Orkan-02",
                 "color": "Black",
@@ -503,7 +553,8 @@
                 "price": "143",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/8s4hnuef/images/99/990626/2230004808410_0_1_mn.jpg"
             },
-            "028": {
+            {
+                "_id": "M_028",
                 "brand": "Lanetti",
                 "model": "Mbs-Imola-01",
                 "color": "Black",
@@ -513,7 +564,8 @@
                 "price": "144",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/ghs3nrjc/images/98/989634/2230004852079_01_pl.jpg"
             },
-            "029": {
+            {
+                "_id": "M_029",
                 "brand": "Lanetti",
                 "model": "Mp07-16859-06",
                 "color": "Camel",
@@ -523,26 +575,86 @@
                 "price": "145",
                 "img": "https://shop.ccc.eu/media/cache/gallery/rc/is4cpsfe/images/98/985884/2230004207848_01_jc.jpg"
             }
-        },
-        "bags": {
-            
-        },
-        "accessories": {
-            "hats": {
-
-            },
-            "wallets": {
-
-            },
-            "gloves": {
-
-            },
-            "belts": {
-
-            },
-            "socks": {
-
+        ],
+        "bags": [
+            {
+                "_id": "B_01",
+                "brand": "any",
+                "model": "any",
+                "color": "any",
+                "category": "any",
+                "season": "any",
+                "rating": "any",
+                "price": "any",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/is4cpsfe/images/98/985884/2230004207848_01_jc.jpg"
             }
+        ],
+        "accessories": {
+            "hats": [
+                {
+                    "_id": "H_01",
+                    "brand": "any",
+                    "model": "any",
+                    "color": "any",
+                    "category": "any",
+                    "season": "any",
+                    "rating": "any",
+                    "price": "any",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/is4cpsfe/images/98/985884/2230004207848_01_jc.jpg"
+                }
+            ],
+            "wallets": [
+                {
+                    "_id": "Wt_01",
+                    "brand": "any",
+                    "model": "any",
+                    "color": "any",
+                    "category": "any",
+                    "season": "any",
+                    "rating": "any",
+                    "price": "any",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/is4cpsfe/images/98/985884/2230004207848_01_jc.jpg"
+                }
+            ],
+            "gloves": [
+                {
+                    "_id": "G_01",
+                    "brand": "any",
+                    "model": "any",
+                    "color": "any",
+                    "category": "any",
+                    "season": "any",
+                    "rating": "any",
+                    "price": "any",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/is4cpsfe/images/98/985884/2230004207848_01_jc.jpg"
+                }
+            ],
+            "belts": [
+                {
+                    "_id": "Bl_01",
+                    "brand": "any",
+                    "model": "any",
+                    "color": "any",
+                    "category": "any",
+                    "season": "any",
+                    "rating": "any",
+                    "price": "any",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/is4cpsfe/images/98/985884/2230004207848_01_jc.jpg"
+                }
+            ],
+            "socks": [
+                {
+                    "_id": "S_01",
+                    "brand": "any",
+                    "model": "any",
+                    "color": "any",
+                    "category": "any",
+                    "season": "any",
+                    "rating": "any",
+                    "price": "any",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/is4cpsfe/images/98/985884/2230004207848_01_jc.jpg"
+                }
+            ]
         }
     }
 }

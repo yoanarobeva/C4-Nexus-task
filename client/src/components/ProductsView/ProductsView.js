@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 
 import * as productService from "../../services/productService"
 
@@ -12,14 +13,36 @@ import './ProductsView.css'
 
 const ProductsView = () => {
     const [products, setProducts] = useState([]);
+    const [show, setShow] = useState(20);
+    const {category, accessory} = useParams();
 
     useEffect(() => {
         productService.getAll()
-            .then(data => {
-                setProducts(data.products);
-                console.log(data.products);
-            })
-    }, [])
+        .then((data) => {
+            setProducts(data.products);  
+        })
+        .then(() => {
+            if(category && !accessory) {
+                setProducts(state => state[category]);
+            } else if (category && accessory) {
+                setProducts(state => state[category][accessory]);
+            } else (
+                setProducts(state => ([
+                    ...state.women, 
+                    ...state.men, 
+                    ...state.bags, 
+                    ...state.accessories.hats, 
+                    ...state.accessories.wallets, 
+                    ...state.accessories.gloves, 
+                    ...state.accessories.belts, 
+                    ...state.accessories.socks
+                ]))
+            )
+        })
+    }, [category, accessory]);
+
+    // console.log(products);
+    // console.log(category, accessory);
     return (
         <>
             <div className="products-container">
@@ -31,7 +54,7 @@ const ProductsView = () => {
                         <Description />
                         <Sort />    
                     </div>
-                    <ProductsGrid />
+                    <ProductsGrid products={products} show={show} />
                     <LoadMore />
                 </div>
             </div>

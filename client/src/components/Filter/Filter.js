@@ -22,19 +22,19 @@ const Filter = () => {
                     <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordion">
                         <div className="accordion-body">
                             <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="one" id="flexCheckDefault"/>
+                                <input className="form-check-input" type="checkbox" defaultValue="one" id="flexCheckDefault"/>
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                     One
                                 </label>
                             </div>
                             <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="two" id="flexCheckDefault"/>
+                                <input className="form-check-input" type="checkbox" defaultValue="two" id="flexCheckDefault"/>
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                     Two
                                 </label>
                             </div>
                             <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="three" id="flexCheckDefault"/>
+                                <input className="form-check-input" type="checkbox" defaultValue="three" id="flexCheckDefault"/>
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                     Three
                                 </label>
@@ -58,19 +58,19 @@ const Filter = () => {
                     <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordion">
                         <div className="accordion-body">
                             <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="one" id="flexCheckDefault"/>
+                                <input className="form-check-input" type="checkbox" defaultValue="one" id="flexCheckDefault"/>
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                     One
                                 </label>
                             </div>
                             <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="two" id="flexCheckDefault"/>
+                                <input className="form-check-input" type="checkbox" defaultValue="two" id="flexCheckDefault"/>
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                     Two
                                 </label>
                             </div>
                             <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="three" id="flexCheckDefault"/>
+                                <input className="form-check-input" type="checkbox" defaultValue="three" id="flexCheckDefault"/>
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                     Three
                                 </label>
@@ -94,19 +94,19 @@ const Filter = () => {
                     <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordion">
                         <div className="accordion-body">
                             <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="one" id="flexCheckDefault"/>
+                                <input className="form-check-input" type="checkbox" defaultValue="one" id="flexCheckDefault"/>
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                     One
                                 </label>
                             </div>
                             <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="two" id="flexCheckDefault"/>
+                                <input className="form-check-input" type="checkbox" defaultValue="two" id="flexCheckDefault"/>
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                     Two
                                 </label>
                             </div>
                             <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="three" id="flexCheckDefault"/>
+                                <input className="form-check-input" type="checkbox" defaultValue="three" id="flexCheckDefault"/>
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                     Three
                                 </label>
@@ -130,19 +130,19 @@ const Filter = () => {
                     <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordion">
                         <div className="accordion-body">
                             <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="one" id="flexCheckDefault"/>
+                                <input className="form-check-input" type="checkbox" defaultValue="one" id="flexCheckDefault"/>
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                     One
                                 </label>
                             </div>
                             <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="two" id="flexCheckDefault"/>
+                                <input className="form-check-input" type="checkbox" defaultValue="two" id="flexCheckDefault"/>
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                     Two
                                 </label>
                             </div>
                             <div className="form-check">
-                                <input className="form-check-input" type="checkbox" value="three" id="flexCheckDefault"/>
+                                <input className="form-check-input" type="checkbox" defaultValue="three" id="flexCheckDefault"/>
                                 <label className="form-check-label" htmlFor="flexCheckDefault">
                                     Three
                                 </label>

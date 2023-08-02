@@ -1,12 +1,22 @@
 import { Link } from "react-router-dom";
 import './ProductCard.css';
 
-const ProductCard = () => {
+const ProductCard = ({
+    _id,
+    brand,
+    model,
+    color,
+    category,
+    season,
+    rating,
+    price,
+    img,
+}) => {
     return (
         <div className="product-grid">
             <div className="product-image">
                 <Link href="#" className="image">
-                    <img alt="" className="img-1" src="https://shop.ccc.eu/media/cache/gallery/rc/mo0ixmnr/images/23/2318825/5904248355975_01_rz.jpg" />
+                    <img alt={model} className="img-1" src={img} />
                 </Link>
                 <ul className="product-links">
                     <li><Link href="#"><i className="fas fa-shopping-cart"></i></Link></li>
@@ -14,15 +24,12 @@ const ProductCard = () => {
                 </ul>
             </div>
             <div className="product-content">
-                <div className="price">$77.99</div>
-                <h3 className="title"><Link href="#">Women's T-Shirt</Link></h3>
-                <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div className="price">{price} BGN</div>
+                <h3 className="title"><Link href="#">{category} {brand}</Link></h3>
+                <p className="text">{model} | {color} | {season}</p>
                 <ul className="rating">
-                    <li className="fas fa-star"></li>
-                    <li className="fas fa-star"></li>
-                    <li className="fas fa-star"></li>
-                    <li className="far fa-star"></li>
-                    <li className="far fa-star"></li>
+                    {[...Array(Math.round(Number(rating)))].map((e, i) => <li className="fas fa-star" key={i}></li>) }
+                    {[...Array(5-Math.round(Number(rating)))].map((e, i) => <li className="far fa-star" key={i}></li>) }
                 </ul>
             </div>
         </div>
