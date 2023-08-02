@@ -13,6 +13,7 @@ export const ProductProvider = memo(({
     const [disableLoadMore, setDisableLoadMore] = useState(false);
     const [category, setCategory] = useState(undefined);
     const [accessory, setAccessory] = useState(undefined);
+    const [filters, setFilters] = useState([]);
 
     useEffect(() => {
         setDisableLoadMore(false);
@@ -41,7 +42,18 @@ export const ProductProvider = memo(({
             )
             setIsLoading(false);
         })
-    }, [category, accessory]);
+        .then(() => {
+            if(filters.length !== 0) {
+                setProducts(state => {
+                    let filtered = [];
+                    filters.forEach(filter => {
+                        filtered = [...filtered, ...state.filter(x => Object.values(x).includes(filter))]
+                    });
+                    return filtered;
+                })
+            }   
+        })
+    }, [category, accessory,filters]);
     
     const onLoadMore = useCallback(() => {
         if(show <= (products.length - 20)) {
@@ -50,7 +62,15 @@ export const ProductProvider = memo(({
             setShow(() => products.length);
             setDisableLoadMore(() => true);
         }
-    }, [products.length, show])
+    }, [products.length, show]);
+
+    const onFilterAdd = useCallback((isChecked, value) => {
+        if (isChecked) {
+            setFilters(state => ([...state, value]));
+        } else {
+            setFilters(state => state.filter(x => x !== value));
+        }
+    }, [])
 
     const productContextValues = useMemo(() => ({
         products,
@@ -60,7 +80,8 @@ export const ProductProvider = memo(({
         setCategory,
         setAccessory,
         onLoadMore,
-    }), [products, show, disableLoadMore, isLoading, setCategory, setAccessory, onLoadMore])
+        onFilterAdd
+    }), [products, show, disableLoadMore, isLoading, setCategory, setAccessory, onLoadMore, onFilterAdd])
 
     return (
         <ProductContext.Provider value={productContextValues}>

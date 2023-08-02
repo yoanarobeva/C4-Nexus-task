@@ -1,4 +1,6 @@
+import { useContext, useState } from "react";
 import "./Filter.css"
+import { ProductContext } from "../../contexts/ProductContext";
 
 const categories = {
     undefined: ["Sandal", "Boot", "Sports Footwear", "Flip-flop", "Half Shoe", "Pump"],
@@ -20,7 +22,29 @@ const colors = ["Black", "Beige", "Pink", "White", "Maroon", "Brown", "Camel"];
 
 const seasons = ["all", "summer", "winter", "spring/autumn"];
 
+
 const Filter = ({category}) => {
+    const {onFilterAdd} = useContext(ProductContext);
+
+    const valueChangeHandler = (e) => {
+        const checkBoxEl = e.target;
+        
+        let isChecked = false;
+        if(checkBoxEl) {
+
+            if(checkBoxEl.checked) {
+                console.log("checked", e.target.value);
+                isChecked = true;
+                
+            } else {
+                console.log("unchecked");
+                isChecked = false;
+                
+            }
+            onFilterAdd(isChecked, checkBoxEl.value);
+        };
+    }
+    
     return (
         <>
             <h4>Filter</h4>
@@ -43,8 +67,8 @@ const Filter = ({category}) => {
                         <div className="accordion-body">
                             {categories[category].map(x => 
                                 <div className="form-check" key={x}>
-                                    <input className="form-check-input" type="checkbox" defaultValue={x} id="flexCheckDefault"/>
-                                    <label className="form-check-label" htmlFor="flexCheckDefault">
+                                    <input className="form-check-input" type="checkbox" name={x} onChangeCapture={(e) => valueChangeHandler(e)} value={x} id={"check" + x}/>
+                                    <label className="form-check-label" htmlFor={"check" + x}>
                                         {x}
                                     </label>
                                 </div>
@@ -69,8 +93,8 @@ const Filter = ({category}) => {
                         <div className="accordion-body">
                             {brands[category].map(x => 
                                 <div className="form-check" key={x}>
-                                    <input className="form-check-input" type="checkbox" defaultValue={x} id="flexCheckDefault"/>
-                                    <label className="form-check-label" htmlFor="flexCheckDefault">
+                                    <input className="form-check-input" type="checkbox" name={x} onChangeCapture={(e) => valueChangeHandler(e)} value={x} id={"check" + x}/>
+                                    <label className="form-check-label" htmlFor={"check" + x}>
                                         {x}
                                     </label>
                                 </div>
@@ -95,8 +119,8 @@ const Filter = ({category}) => {
                         <div className="accordion-body">
                             {colors.map(x => 
                                 <div className="form-check" key={x}>
-                                    <input className="form-check-input" type="checkbox" defaultValue={x} id="flexCheckDefault"/>
-                                    <label className="form-check-label" htmlFor="flexCheckDefault">
+                                    <input className="form-check-input" type="checkbox" name={x} onChangeCapture={(e) => valueChangeHandler(e)} value={x} id={"check" + x}/>
+                                    <label className="form-check-label" htmlFor={"check" + x}>
                                         {x}
                                     </label>
                                 </div>
@@ -121,8 +145,8 @@ const Filter = ({category}) => {
                         <div className="accordion-body">
                             {seasons.map(x => 
                                 <div className="form-check" key={x}>
-                                    <input className="form-check-input" type="checkbox" defaultValue={x} id="flexCheckDefault"/>
-                                    <label className="form-check-label" htmlFor="flexCheckDefault">
+                                    <input className="form-check-input" type="checkbox" name={x} onChangeCapture={(e) => valueChangeHandler(e)} value={x} id={"check" + x}/>
+                                    <label className="form-check-label" htmlFor={"check" + x}>
                                         {x}
                                     </label>
                                 </div>
