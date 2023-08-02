@@ -28,7 +28,7 @@ const ProductsView = () => {
                 </div>
                 <div className="right-side">
                     <div className="top">
-                        <Description />
+                        <Description category={category}/>
                         <Sort />    
                     </div>
                     <ProductsGrid />

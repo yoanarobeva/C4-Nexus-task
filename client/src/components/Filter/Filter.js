@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import "./Filter.css"
 import { ProductContext } from "../../contexts/ProductContext";
 
@@ -33,11 +33,11 @@ const Filter = ({category}) => {
         if(checkBoxEl) {
 
             if(checkBoxEl.checked) {
-                console.log("checked", e.target.value);
+                // console.log("checked", e.target.value);
                 isChecked = true;
                 
             } else {
-                console.log("unchecked");
+                // console.log("unchecked");
                 isChecked = false;
                 
             }
