@@ -22,8 +22,16 @@ export const ProductProvider = memo(({
             setProducts(data.products);  
         })
         .then(() => {
-            if(category && !accessory) {
+            if(category && (category !== 'accessories') && !accessory) {
                 setProducts(state => state[category]);
+            } else if ((category === 'accessories') && category && !accessory) {
+                setProducts(state => ([ 
+                    ...state.accessories.hats, 
+                    ...state.accessories.wallets, 
+                    ...state.accessories.gloves, 
+                    ...state.accessories.belts, 
+                    ...state.accessories.socks
+                ]))
             } else if (category && accessory) {
                 setProducts(state => state[category][accessory]);
             } else (
