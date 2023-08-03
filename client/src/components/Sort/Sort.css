@@ -2,3 +2,9 @@
     flex: 1 1 20%;
     min-width: 15%;
 }
+
+@media (max-width: 600px) {
+    .form-select {
+        font-size: 0.9em;
+    }
+}
