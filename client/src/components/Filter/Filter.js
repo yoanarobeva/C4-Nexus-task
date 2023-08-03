@@ -7,7 +7,7 @@ const categories = {
     women: ["Sandal", "Boot", "Sports Footwear", "Flip-flop", "Pump"],
     men: ["Sandal", "Boot", "Sports Footwear", "Flip-flop", "Half Shoe"],
     bags: ["Women's", "Men's", "Unisex"],
-    accessories: [],
+    accessories: ["Women's", "Men's", "Unisex"],
 };
 
 const brands = {
@@ -128,7 +128,7 @@ const Filter = ({category}) => {
                         </div>
                     </div>
                 </div>
-                {category !== "bags" ?
+                {(category !== "bags" && category !== "accessories") ?
                     <div className="accordion-item">
                         <h2 className="accordion-header">
                             <button 

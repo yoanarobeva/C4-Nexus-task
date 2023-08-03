@@ -822,53 +822,602 @@
             "hats": [
                 {
                     "_id": "H_01",
-                    "brand": "any",
-                    "model": "any",
-                    "color": "any",
-                    "category": "any",
-                    "season": "any",
+                    "brand": "Accessories",
+                    "model": "1W3-013-ss22",
+                    "color": "Beige",
+                    "category": "Women's",
+                    "season": "summer",
                     "rating": "5",
-                    "price": "any",
-                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/is4cpsfe/images/98/985884/2230004207848_01_jc.jpg"
+                    "price": "60",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/a7zytssx/images/23/2310801/5904248319007_06_mk.jpg"
+                },
+                {
+                    "_id": "H_02",
+                    "brand": "Accessories",
+                    "model": "1W3-002-ss22",
+                    "color": "Beige",
+                    "category": "Women's",
+                    "season": "summer",
+                    "rating": "4.9",
+                    "price": "59",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/qshadan0/images/23/2310797/5904248318994_06_mk.jpg"
+                },
+                {
+                    "_id": "H_03",
+                    "brand": "Accessories",
+                    "model": "1W3-001-ss22",
+                    "color": "Black",
+                    "category": "Women's",
+                    "season": "summer",
+                    "rating": "4.8",
+                    "price": "58",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/cux8ifos/images/23/2310793/5904248319021_0009.jpg"
+                },
+                {
+                    "_id": "H_04",
+                    "brand": "Accessories",
+                    "model": "1W3-003-ss22",
+                    "color": "Black",
+                    "category": "Women's",
+                    "season": "summer",
+                    "rating": "4.7",
+                    "price": "57",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/tb9t75jt/images/23/2310785/5904248318468_0136_2.jpg"
+                },
+                {
+                    "_id": "H_05",
+                    "brand": "Accessories",
+                    "model": "1W3-004-ss22",
+                    "color": "Beige",
+                    "category": "Women's",
+                    "season": "summer",
+                    "rating": "4.6",
+                    "price": "56",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/5kl6xynd/images/23/2310781/5904248318437_02_kt.jpg"
+                },
+                {
+                    "_id": "H_06",
+                    "brand": "Accessories",
+                    "model": "1W3-010-ss22",
+                    "color": "Beige",
+                    "category": "Women's",
+                    "season": "summer",
+                    "rating": "4.5",
+                    "price": "55",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/ktegdvoo/images/22/2294605/5904248242848_01_plj_1.jpg"
+                },
+                {
+                    "_id": "H_07",
+                    "brand": "Accessories",
+                    "model": "1W3-022-ss22",
+                    "color": "Brown",
+                    "category": "Women's",
+                    "season": "summer",
+                    "rating": "4.4",
+                    "price": "54",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/7piizijf/images/23/2304423/5904248281427_03_ki.jpg"
+                },
+                {
+                    "_id": "H_08",
+                    "brand": "Accessories",
+                    "model": "1W3-003-aw18",
+                    "color": "Maroon",
+                    "category": "Unisex",
+                    "season": "winter",
+                    "rating": "4.3",
+                    "price": "53",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/vvr1nood/images/89/895445/2220953300004_01_wj.jpg"
+                },
+                {
+                    "_id": "H_09",
+                    "brand": "Accessories",
+                    "model": "1W3-009-aw18",
+                    "color": "Black",
+                    "category": "Unisex",
+                    "season": "winter",
+                    "rating": "4.2",
+                    "price": "52",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/oalngqvw/images/89/896558/2220960550003_01_jf.jpg"
+                },
+                {
+                    "_id": "H_10",
+                    "brand": "Sprandi",
+                    "model": "Cau-002",
+                    "color": "White",
+                    "category": "Unisex",
+                    "season": "all",
+                    "rating": "4.1",
+                    "price": "51",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/kge9zkku/images/94/941765/2221077370003_01__mf.jpg"
+                },
+                {
+                    "_id": "H_11",
+                    "brand": "Sprandi",
+                    "model": "Cau-002",
+                    "color": "Black",
+                    "category": "Unisex",
+                    "season": "all",
+                    "rating": "4.0",
+                    "price": "50",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/v31dvrj0/images/94/941755/2221077340006_01_kch.jpg"
+                },
+                {
+                    "_id": "H_12",
+                    "brand": "Sprandi",
+                    "model": "Cau-001",
+                    "color": "Black",
+                    "category": "Unisex",
+                    "season": "all",
+                    "rating": "3.9",
+                    "price": "49",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/3mtivh3h/images/94/941739/2221077310009_01_mk.jpg"
+                },
+                {
+                    "_id": "H_13",
+                    "brand": "Accessories",
+                    "model": "1W3-010-aw18",
+                    "color": "Black",
+                    "category": "Unisex",
+                    "season": "winter",
+                    "rating": "3.8",
+                    "price": "48",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/m6ifopu1/images/60/601045/2220951450008_01_ks.jpg"
                 }
             ],
             "wallets": [
                 {
                     "_id": "Wt_01",
-                    "brand": "any",
-                    "model": "any",
-                    "color": "any",
-                    "category": "any",
-                    "season": "any",
+                    "brand": "Accessories",
+                    "model": "1W1-023-aw19",
+                    "color": "Pink",
+                    "category": "Women's",
                     "rating": "5",
-                    "price": "any",
-                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/is4cpsfe/images/98/985884/2230004207848_01_jc.jpg"
+                    "price": "70",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/dze2tgac/images/18/1838973/5903419702433_01_ts.jpg"
+                },
+                {
+                    "_id": "Wt_02",
+                    "brand": "Accessories",
+                    "model": "1W1-001-aw18",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.9",
+                    "price": "71",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/zc6fie8w/images/11/1132177/5903419626227.jpg"
+                },
+                {
+                    "_id": "Wt_03",
+                    "brand": "Accessories",
+                    "model": "1W1-013-aw18",
+                    "color": "Beige",
+                    "category": "Women's",
+                    "rating": "4.8",
+                    "price": "72",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/5m12w26g/images/18/1838949/5903419706042_01_mf.jpg"
+                },
+                {
+                    "_id": "Wt_04",
+                    "brand": "Accessories",
+                    "model": "1W1-005-aw18",
+                    "color": "Maroon",
+                    "category": "Women's",
+                    "rating": "4.7",
+                    "price": "73",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/c9uc3f4v/images/11/1135691/5903419654015.jpg"
+                },
+                {
+                    "_id": "Wt_05",
+                    "brand": "Accessories",
+                    "model": "1W1-004-aw18",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.6",
+                    "price": "74",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/owstqerm/images/11/1135173/5903419654022.jpg"
+                },
+                {
+                    "_id": "Wt_06",
+                    "brand": "Lasocki",
+                    "model": "Brt-006",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.5",
+                    "price": "75",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/xlxvy7tr/images/90/903527/2220966710005_01_pz.jpg"
+                },
+                {
+                    "_id": "Wt_07",
+                    "brand": "Lasocki",
+                    "model": "Brt-006",
+                    "color": "Maroon",
+                    "category": "Women's",
+                    "rating": "4.4",
+                    "price": "76",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/ta2u5amg/images/90/903519/2220966690000_01_pz.jpg"
+                },
+                {
+                    "_id": "Wt_08",
+                    "brand": "Lasocki",
+                    "model": "2w1-013-aw21",
+                    "color": "Beige",
+                    "category": "Women's",
+                    "rating": "4.3",
+                    "price": "77",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/30q6s7ek/images/22/2267469/5904248130572_01_bs_kopia.jpg"
+                },
+                {
+                    "_id": "Wt_09",
+                    "brand": "Lasocki",
+                    "model": "2w1-007-aw21",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.2",
+                    "price": "78",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/tro9fg6o/images/22/2263811/5904248130718_01_kt.jpg"
+                },
+                {
+                    "_id": "Wt_10",
+                    "brand": "Lasocki",
+                    "model": "2m1-001-aw19",
+                    "color": "Black",
+                    "category": "Men's",
+                    "rating": "4.1",
+                    "price": "79",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/pqhmcihb/images/98/981940/2230004214327_01_mt_1.jpg"
+                },
+                {
+                    "_id": "Wt_11",
+                    "brand": "Lasocki",
+                    "model": "2m1-004-aw18",
+                    "color": "Black",
+                    "category": "Men's",
+                    "rating": "4",
+                    "price": "60",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/o6ev6dq4/images/59/594162/2220942640005_01_mg.jpg"
+                },
+                {
+                    "_id": "Wt_12",
+                    "brand": "Lasocki",
+                    "model": "2m1-002-aw22",
+                    "color": "Black",
+                    "category": "Men's",
+                    "rating": "3.9",
+                    "price": "61",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/qqsyil2j/images/22/2299161/5904248260569_01_ki.jpg"
+                },
+                {
+                    "_id": "Wt_13",
+                    "brand": "Lasocki",
+                    "model": "2m1-003-aw20",
+                    "color": "Brown",
+                    "category": "Men's",
+                    "rating": "3.8",
+                    "price": "62",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/xgyxzinj/images/18/1846799/5903419695537_01_wj.jpg"
+                },
+                {
+                    "_id": "Wt_14",
+                    "brand": "Lanetti",
+                    "model": "6m1-003-aw21",
+                    "color": "Brown",
+                    "category": "Men's",
+                    "rating": "3.7",
+                    "price": "63",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/wsopv8mm/images/20/2005072/5903698314822_01_ki.jpg"
+                },
+                {
+                    "_id": "Wt_15",
+                    "brand": "Lanetti",
+                    "model": "6m1-004-ss21",
+                    "color": "Black",
+                    "category": "Men's",
+                    "rating": "3.6",
+                    "price": "64",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/qvtvhbnq/images/20/2005060/5903698317182_01_bs_kopia.jpg"
                 }
             ],
             "gloves": [
                 {
                     "_id": "G_01",
-                    "brand": "any",
-                    "model": "any",
-                    "color": "any",
-                    "category": "any",
-                    "season": "any",
-                    "rating": "5",
-                    "price": "any",
-                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/is4cpsfe/images/98/985884/2230004207848_01_jc.jpg"
+                    "brand": "Lasocki",
+                    "model": "2w6-002-aw19",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "2.4",
+                    "price": "40",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/moo0itdu/images/96/968828/2230002760062_01_ws_1.jpg"
+                },
+                {
+                    "_id": "G_02",
+                    "brand": "Accessories",
+                    "model": "1w6-016-aw19",
+                    "color": "Maroon",
+                    "category": "Women's",
+                    "rating": "2.5",
+                    "price": "41",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/2whovaq4/images/59/594578/2220943650003_01_ks.jpg"
+                },
+                {
+                    "_id": "G_03",
+                    "brand": "Accessories",
+                    "model": "9w6-001-aw21",
+                    "color": "Beige",
+                    "category": "Women's",
+                    "rating": "2.6",
+                    "price": "42",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/yy9lkzcw/images/22/2237747/5903698994246_01_sw.jpg"
+                },
+                {
+                    "_id": "G_04",
+                    "brand": "Accessories",
+                    "model": "9w6-004-aw21",
+                    "color": "Beige",
+                    "category": "Women's",
+                    "rating": "3.4",
+                    "price": "43",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/4xwiowbi/images/22/2237655/5903698994291_01_ts.jpg"
+                },
+                {
+                    "_id": "G_05",
+                    "brand": "Accessories",
+                    "model": "1w6-016-aw21",
+                    "color": "Pink",
+                    "category": "Women's",
+                    "rating": "3.5",
+                    "price": "44",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/ekk7bho4/images/22/2212778/5903698846750_01_bs_kopia.jpg"
+                },
+                {
+                    "_id": "G_06",
+                    "brand": "Lasocki",
+                    "model": "2w6-003-aw19",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "3.6",
+                    "price": "45",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/ozxx9ybc/images/96/968822/2230002760048_01_ws_1.jpg"
+                },
+                {
+                    "_id": "G_07",
+                    "brand": "Lasocki",
+                    "model": "2w6-004-aw19",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "3.7",
+                    "price": "46",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/cnub7b90/images/96/968898/2230003201991_01_ws_1.jpg"
+                },
+                {
+                    "_id": "G_08",
+                    "brand": "Lasocki",
+                    "model": "2w6-003-aw19",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "3.8",
+                    "price": "47",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/ozxx9ybc/images/96/968822/2230002760048_01_ws_1.jpg"
+                },
+                {
+                    "_id": "G_09",
+                    "brand": "Lasocki",
+                    "model": "2w6-003-aw18",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "3.9",
+                    "price": "48",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/wxgazigy/images/89/895447/2220953440007_01_az_1.jpg"
+                },
+                {
+                    "_id": "G_10",
+                    "brand": "Accessories",
+                    "model": "1w6-002-aw18",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4",
+                    "price": "49",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/umubdxjq/images/59/595179/2220948410008_01_ai.jpg"
+                },
+                {
+                    "_id": "G_11",
+                    "brand": "Lasocki",
+                    "model": "2w6-005-aw18",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.1",
+                    "price": "50",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/ttukyu8j/images/59/594585/2220943660002_01_pl_1.jpg"
+                },
+                {
+                    "_id": "G_12",
+                    "brand": "Lasocki",
+                    "model": "2w6-002-aw18",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.2",
+                    "price": "51",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/wagr6v8w/images/59/591234/2220948380004_01_ai_1.jpg"
+                },
+                {
+                    "_id": "G_13",
+                    "brand": "Accessories",
+                    "model": "1w6-001-aw18",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.3",
+                    "price": "52",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/b9rmc29h/images/59/591174/2220948340008_02_ws.jpg"
+                },
+                {
+                    "_id": "G_14",
+                    "brand": "Accessories",
+                    "model": "1w6-007-aw18",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.4",
+                    "price": "53",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/9o33cg46/images/58/589312/2220946650000_01_ks.jpg"
+                },
+                {
+                    "_id": "G_15",
+                    "brand": "Accessories",
+                    "model": "1w6-005-aw18",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.5",
+                    "price": "54",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/pzmsqs8b/images/58/588260/2220937190003_01_ek.jpg"
+                },
+                {
+                    "_id": "G_16",
+                    "brand": "Lasocki",
+                    "model": "2w6-002-aw21",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.6",
+                    "price": "55",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/1w8hz8nd/images/22/2237259/5903698898308_01_plj_2.jpg"
+                },
+                {
+                    "_id": "G_17",
+                    "brand": "Lasocki",
+                    "model": "2w6-004-aw21",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.7",
+                    "price": "56",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/zhg8xpaf/images/22/2237253/5903698898315_02_plj.jpg"
+                },
+                {
+                    "_id": "G_18",
+                    "brand": "Lasocki",
+                    "model": "1w6-010-aw21",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.8",
+                    "price": "57",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/6hzhgx0x/images/22/2236879/5903698886251_01_mg_kopia.jpg"
                 }
             ],
             "belts": [
                 {
                     "_id": "Bl_01",
-                    "brand": "any",
-                    "model": "any",
-                    "color": "any",
-                    "category": "any",
-                    "season": "any",
+                    "brand": "Lasocki",
+                    "model": "2w2-002-ss19",
+                    "color": "Brown",
+                    "category": "Women's",
                     "rating": "5",
-                    "price": "any",
-                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/is4cpsfe/images/98/985884/2230004207848_01_jc.jpg"
+                    "price": "50",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/qf7cmgbe/images/93/933793/2221061040004_01_ap_1.jpg"
+                },
+                {
+                    "_id": "Bl_02",
+                    "brand": "Lasocki",
+                    "model": "2w2-001-ss19",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.9",
+                    "price": "49",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/5ov69dht/images/93/933785/2221061030005_01_ap.jpg"
+                },
+                {
+                    "_id": "Bl_03",
+                    "brand": "Lasocki",
+                    "model": "2w2-003-aw18",
+                    "color": "Maroon",
+                    "category": "Women's",
+                    "rating": "4.8",
+                    "price": "48",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/e2u3g2rs/images/59/594113/2220942580004_01_pl.jpg"
+                },
+                {
+                    "_id": "Bl_04",
+                    "brand": "Lasocki",
+                    "model": "2w2-005-aw18",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.7",
+                    "price": "47",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/otqxncq6/images/59/594127/2220942600009_01_pl_1.jpg"
+                },
+                {
+                    "_id": "Bl_05",
+                    "brand": "Lasocki",
+                    "model": "2w2-001-aw21",
+                    "color": "Brown",
+                    "category": "Women's",
+                    "rating": "4.6",
+                    "price": "46",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/oqblln7u/images/22/2299205/5904248260613_01_ks.jpg"
+                },
+                {
+                    "_id": "Bl_06",
+                    "brand": "Lasocki",
+                    "model": "2w2-012-aw20",
+                    "color": "Brown",
+                    "category": "Women's",
+                    "rating": "4.5",
+                    "price": "45",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/1xhsq3yt/images/19/1972010/5903698158457_01_sw.jpg"
+                },
+                {
+                    "_id": "Bl_07",
+                    "brand": "Lasocki",
+                    "model": "2w2-010-aw20",
+                    "color": "Black",
+                    "category": "Women's",
+                    "rating": "4.4",
+                    "price": "44",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/5w8ksmay/images/19/1972000/5903698158433_01_kt.jpg"
+                },
+                {
+                    "_id": "Bl_08",
+                    "brand": "Lasocki",
+                    "model": "2m2-030-aw19",
+                    "color": "Black",
+                    "category": "Men's",
+                    "rating": "4.3",
+                    "price": "43",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/tveeenxu/images/99/997075/2230008001183_01_ts_1.jpg"
+                },
+                {
+                    "_id": "Bl_09",
+                    "brand": "Lasocki",
+                    "model": "2m2-008-aw19",
+                    "color": "Brown",
+                    "category": "Men's",
+                    "rating": "4.2",
+                    "price": "42",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/plbykz05/images/97/978788/2230003576167.jpg"
+                },
+                {
+                    "_id": "Bl_10",
+                    "brand": "Lasocki",
+                    "model": "2m2-015-aw19",
+                    "color": "Brown",
+                    "category": "Men's",
+                    "rating": "4.1",
+                    "price": "41",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/hh1pdwpc/images/97/971126/2230003576525.jpg"
+                },
+                {
+                    "_id": "Bl_11",
+                    "brand": "Lasocki",
+                    "model": "2m2-014-aw19",
+                    "color": "Black",
+                    "category": "Men's",
+                    "rating": "4",
+                    "price": "40",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/803qezd4/images/97/971118/2230003576518.jpg"
+                },
+                {
+                    "_id": "Bl_11",
+                    "brand": "Lasocki",
+                    "model": "2m2-018-ss19",
+                    "color": "Beige",
+                    "category": "Men's",
+                    "rating": "3.9",
+                    "price": "39",
+                    "img": "https://shop.ccc.eu/media/cache/gallery/rc/lipfhaj9/images/95/953102/2221085910000_01_mf.jpg"
                 }
             ],
             "socks": [
