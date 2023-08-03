@@ -1,12 +1,12 @@
 import { useContext } from "react";
-import "./Filter.css"
 import { ProductContext } from "../../contexts/ProductContext";
+import "./Filter.css"
 
 const categories = {
     undefined: ["Sandal", "Boot", "Sports Footwear", "Flip-flop", "Half Shoe", "Pump"],
     women: ["Sandal", "Boot", "Sports Footwear", "Flip-flop", "Pump"],
     men: ["Sandal", "Boot", "Sports Footwear", "Flip-flop", "Half Shoe"],
-    bags: [],
+    bags: ["Women's", "Men's", "Unisex"],
     accessories: [],
 };
 
@@ -14,7 +14,7 @@ const brands = {
     undefined: ["Quazi", "Puma", "Lasocki", "Lanetti"],
     women: ["Quazi", "Puma", "Lasocki"],
     men: ["Puma", "Lasocki", "Lanetti"],
-    bags: [],
+    bags: ["Quazi", "Puma", "Lasocki", "Lanetti"],
     accessories: [],
 };
 
@@ -128,32 +128,34 @@ const Filter = ({category}) => {
                         </div>
                     </div>
                 </div>
-                <div className="accordion-item">
-                    <h2 className="accordion-header">
-                        <button 
-                            className="accordion-button collapsed" 
-                            type="button" 
-                            data-bs-toggle="collapse" 
-                            data-bs-target="#collapseFour" 
-                            aria-expanded="false" 
-                            aria-controls="collapseFour"
-                        >
-                            Season
-                        </button>
-                    </h2>
-                    <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordion">
-                        <div className="accordion-body">
-                            {seasons.map(x => 
-                                <div className="form-check" key={x}>
-                                    <input className="form-check-input" type="checkbox" name={x} onChangeCapture={(e) => valueChangeHandler(e)} value={x} id={"check" + x}/>
-                                    <label className="form-check-label" htmlFor={"check" + x}>
-                                        {x}
-                                    </label>
-                                </div>
-                            )}
+                {category !== "bags" ?
+                    <div className="accordion-item">
+                        <h2 className="accordion-header">
+                            <button 
+                                className="accordion-button collapsed" 
+                                type="button" 
+                                data-bs-toggle="collapse" 
+                                data-bs-target="#collapseFour" 
+                                aria-expanded="false" 
+                                aria-controls="collapseFour"
+                            >
+                                Season
+                            </button>
+                        </h2>
+                        <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordion">
+                            <div className="accordion-body">
+                                {seasons.map(x => 
+                                    <div className="form-check" key={x}>
+                                        <input className="form-check-input" type="checkbox" name={x} onChangeCapture={(e) => valueChangeHandler(e)} value={x} id={"check" + x}/>
+                                        <label className="form-check-label" htmlFor={"check" + x}>
+                                            {x}
+                                        </label>
+                                    </div>
+                                )}
+                            </div>
                         </div>
                     </div>
-                </div>
+                : null }   
             </div>
         </>
     );

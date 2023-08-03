@@ -26,7 +26,7 @@ const ProductCard = ({
             <div className="product-content">
                 <div className="price">{price} BGN</div>
                 <h3 className="title"><Link href="#">{category} {brand}</Link></h3>
-                <p className="text">{model} | {color} | {season}</p>
+                <p className="text">{model} | {color} | {season ? season : ""}</p>
                 <ul className="rating">
                     {[...Array(Math.round(Number(rating)))].map((e, i) => <li className="fas fa-star" key={i}></li>) }
                     {[...Array(5-Math.round(Number(rating)))].map((e, i) => <li className="far fa-star" key={i}></li>) }

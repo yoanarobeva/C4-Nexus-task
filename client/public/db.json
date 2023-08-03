@@ -579,14 +579,243 @@
         "bags": [
             {
                 "_id": "B_01",
-                "brand": "any",
-                "model": "any",
-                "color": "any",
-                "category": "any",
-                "season": "any",
+                "brand": "Quazi",
+                "model": "Mqr-j-030-20-01",
+                "color": "Camel",
+                "category": "Women's",
                 "rating": "5",
-                "price": "any",
-                "img": "https://shop.ccc.eu/media/cache/gallery/rc/is4cpsfe/images/98/985884/2230004207848_01_jc.jpg"
+                "price": "80",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/dq8dgnha/images/23/2318761/5904248355678_04_plj.jpg"
+            },
+            {
+                "_id": "B_02",
+                "brand": "Quazi",
+                "model": "Mqr-j-030-80-01",
+                "color": "White",
+                "category": "Women's",
+                "rating": "4.9",
+                "price": "81",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/vcjxdwmv/images/23/2318755/5904248355654_04_plj.jpg"
+            },
+            {
+                "_id": "B_03",
+                "brand": "Quazi",
+                "model": "Mqr-j-030-10-01",
+                "color": "Black",
+                "category": "Women's",
+                "rating": "4.8",
+                "price": "82",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/khg6hxvv/images/23/2318749/5904248355395_04_plj_1.jpg"
+            },
+            {
+                "_id": "B_04",
+                "brand": "Quazi",
+                "model": "Mqp-j-028-85-01",
+                "color": "Beige",
+                "category": "Women's",
+                "rating": "4.7",
+                "price": "83",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/4cm248lr/images/23/2318693/5904248355050_04_plj_1.jpg"
+            },
+            {
+                "_id": "B_05",
+                "brand": "Quazi",
+                "model": "Mqh-j-036-10-01",
+                "color": "Black",
+                "category": "Women's",
+                "rating": "4.6",
+                "price": "84",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/88ccwtea/images/23/2318797/5904248355777_06_nc.jpg"
+            },
+            {
+                "_id": "B_06",
+                "brand": "Quazi",
+                "model": "Mqr-j-029-10-01",
+                "color": "Black",
+                "category": "Women's",
+                "rating": "4.5",
+                "price": "83",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/qmjnn1uv/images/23/2318681/5904248355067_04_bs_kopia.jpg"
+            },
+            {
+                "_id": "B_07",
+                "brand": "Quazi",
+                "model": "Mqr-j-029-10-01",
+                "color": "Camel",
+                "category": "Women's",
+                "rating": "4.4",
+                "price": "82",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/xivdj2yf/images/23/2318673/5904248355036_03_kt.jpg"
+            },
+            {
+                "_id": "B_08",
+                "brand": "Quazi",
+                "model": "Mqr-j-015-60-01",
+                "color": "Pink",
+                "category": "Women's",
+                "rating": "4.3",
+                "price": "81",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/zl3iij9u/images/23/2318643/5904248354770_04_ph.jpg"
+            },
+            {
+                "_id": "B_10",
+                "brand": "Puma",
+                "model": "Fundamentals Sports Bag",
+                "color": "Maroon",
+                "category": "Unisex",
+                "rating": "4.1",
+                "price": "100",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/goh8xb1k/images/96/969782/2230002200674_01_az.jpg"
+            },
+            {
+                "_id": "B_12",
+                "brand": "Puma",
+                "model": "Phase Backpack 07548719",
+                "color": "Pink",
+                "category": "Unisex",
+                "rating": "3.9",
+                "price": "102",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/ewkhunpv/images/91/916721/2221002650002_01_mg.jpg"
+            },
+            {
+                "_id": "B_13",
+                "brand": "Puma",
+                "model": "Buzz Backpack 7358101",
+                "color": "Black",
+                "category": "Unisex",
+                "rating": "3.8",
+                "price": "103",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/sauucdfy/images/96/969238/2230002200599_01_ap.jpg"
+            },
+            {
+                "_id": "B_14",
+                "brand": "Puma",
+                "model": "Core up Large Shopper",
+                "color": "Beige",
+                "category": "Women's",
+                "rating": "3.7",
+                "price": "104",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/0nhbr4js/images/91/916665/2221002700004_01_ksz.jpg"
+            },
+            {
+                "_id": "B_15",
+                "brand": "Puma",
+                "model": "Core up Large Shopper",
+                "color": "Black",
+                "category": "Women's",
+                "rating": "3.6",
+                "price": "105",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/mwvmby1l/images/91/916673/2221002690008_01_kb.jpg"
+            },
+            {
+                "_id": "B_16",
+                "brand": "Lasocki",
+                "model": "Mlh-a-001-10-01",
+                "color": "Black",
+                "category": "Women's",
+                "rating": "3.5",
+                "price": "106",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/krfwzpf1/images/23/2302469/5904248271923_03_fp.jpg"
+            },
+            {
+                "_id": "B_17",
+                "brand": "Lasocki",
+                "model": "Mlh-a-001-20-01",
+                "color": "Camel",
+                "category": "Women's",
+                "rating": "3.4",
+                "price": "107",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/1oft62lb/images/23/2302457/5904248271947_03_pa.jpg"
+            },
+            {
+                "_id": "B_18",
+                "brand": "Lasocki",
+                "model": "Blt-s-089-40-07",
+                "color": "Brown",
+                "category": "Men's",
+                "rating": "3.3",
+                "price": "108",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/q3fpu2jr/images/22/2299327/01_5904248261214_fp.jpg"
+            },
+            {
+                "_id": "B_19",
+                "brand": "Lasocki",
+                "model": "Blr-s-090-40-07",
+                "color": "Brown",
+                "category": "Men's",
+                "rating": "3.2",
+                "price": "109",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/6yqoxffz/images/22/2299301/01_5904248261207_ph.jpg"
+            },
+            {
+                "_id": "B_20",
+                "brand": "Lasocki",
+                "model": "Blm-s-093-10-07",
+                "color": "Black",
+                "category": "Men's",
+                "rating": "3.1",
+                "price": "110",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/othos4xv/images/22/2299321/5904248261238_03_mk.jpg"
+            },
+            {
+                "_id": "B_21",
+                "brand": "Lanetti",
+                "model": "Bmr-s-083-10-07",
+                "color": "Black",
+                "category": "Men's",
+                "rating": "3.0",
+                "price": "111",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/koa2kwuu/images/22/2299273/5904248261078_03_mg_kopia.jpg"
+            },
+            {
+                "_id": "B_22",
+                "brand": "Lanetti",
+                "model": "Bmr-s-084-10-07",
+                "color": "Black",
+                "category": "Men's",
+                "rating": "2.9",
+                "price": "112",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/yln5dnma/images/22/2299257/5904248261061_03_mg_kopia.jpg"
+            },
+            {
+                "_id": "B_23",
+                "brand": "Lasocki",
+                "model": "Blr-s-092-40-07",
+                "color": "Brown",
+                "category": "Men's",
+                "rating": "2.8",
+                "price": "113",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/w0jyygg2/images/22/2299199/5904248261191_04_sw_1.jpg"
+            },
+            {
+                "_id": "B_24",
+                "brand": "Lanetti",
+                "model": "Bmm-s-082-10-07",
+                "color": "Black",
+                "category": "Men's",
+                "rating": "2.7",
+                "price": "114",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/8bnkc8uu/images/22/2299179/5904248261108_03_ph.jpg"
+            },
+            {
+                "_id": "B_25",
+                "brand": "Lasocki",
+                "model": "Blm-u-053-40-07",
+                "color": "Brown",
+                "category": "Men's",
+                "rating": "2.6",
+                "price": "115",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/26nru1k5/images/22/2278415/5904248213527_04_pa_2.jpg"
+            },
+            {
+                "_id": "B_26",
+                "brand": "Lanetti",
+                "model": "Bmr-s-005-10-07",
+                "color": "Black",
+                "category": "Men's",
+                "rating": "2.5",
+                "price": "116",
+                "img": "https://shop.ccc.eu/media/cache/gallery/rc/gnpv9zi9/images/22/2264567/5904248169268_03_st.jpg"
             }
         ],
         "accessories": {
