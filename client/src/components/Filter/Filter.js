@@ -15,7 +15,7 @@ const brands = {
     women: ["Quazi", "Puma", "Lasocki"],
     men: ["Puma", "Lasocki", "Lanetti"],
     bags: ["Quazi", "Puma", "Lasocki", "Lanetti"],
-    accessories: [],
+    accessories: ["Quazi", "Puma", "Lasocki", "Lanetti", "Accessories"],
 };
 
 const colors = ["Black", "Beige", "Pink", "White", "Maroon", "Brown", "Camel"];
